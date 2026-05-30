@@ -1,0 +1,17 @@
+name = "TreasuryLiquiditySignalLab"
+uuid = "854ab0cb-0ded-489f-8070-51c68e48ed41"
+authors = ["Miz Causevic <miz@kineticgain.com>"]
+version = "0.1.0"
+
+[deps]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
+
+[compat]
+julia = "1.12"
