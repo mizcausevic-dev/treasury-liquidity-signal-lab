@@ -370,6 +370,48 @@ function overview_content(result::Dict)
       </div>
     </section>
 
+    <section class="section">
+      <div class="sh"><h2>Product depth</h2><div class="note">how this becomes useful</div></div>
+      <div class="cards">
+        <div class="card">
+          <div class="eyebrow">for executives</div>
+          <h3>Translate treasury pressure into a board-ready decision.</h3>
+          <p>The surface turns cash coverage, settlement risk, standby capacity, and shortfall into a single operating readout that a CFO, CEO, or investor can use without reading raw treasury workbooks.</p>
+        </div>
+        <div class="card">
+          <div class="eyebrow">for finance and platform teams</div>
+          <h3>Keep the model auditable instead of ornamental.</h3>
+          <p>The Julia core keeps every lane tied to required funding, pool limits, business value, urgency, and stress cost so the reported posture can be traced back to concrete constraints.</p>
+        </div>
+        <div class="card">
+          <div class="eyebrow">for GTM and diligence</div>
+          <h3>Show that the portfolio can carry finance-grade logic.</h3>
+          <p>This repo is not a static landing page. It demonstrates an inspectable treasury model that can support diligence packs, liquidity reviews, embedded finance screens, and close-safe funding narratives.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="sh"><h2>What these repos have in common</h2><div class="note">Kinetic Gain pattern</div></div>
+      <div class="cards">
+        <div class="card">
+          <div class="eyebrow">risk</div>
+          <h3>The fragile handoff is made visible.</h3>
+          <p>Here the fragile handoff is the moment treasury demand exceeds cleanly deployable liquidity and forces a late scramble across operating cash, reserves, and facility headroom.</p>
+        </div>
+        <div class="card">
+          <div class="eyebrow">owner</div>
+          <h3>The accountable function stays attached.</h3>
+          <p>Finance, treasury, platform, and revenue leadership can see which lane needs action, which pool is constrained, and which contingency conversation should happen next.</p>
+        </div>
+        <div class="card">
+          <div class="eyebrow">proof</div>
+          <h3>The claim is inspectable.</h3>
+          <p>The public repo includes the model, tests, generated JSON, static pages, and release checks so the story is supported by runnable code instead of unsupported positioning copy.</p>
+        </div>
+      </div>
+    </section>
+
     <section class="quote">
       <div class="lbl">why this matters</div>
       <div class="q">Kinetic Gain Embedded tie-back: this repo proves the portfolio can carry treasury and liquidity logic in Julia while still publishing the same buyer-readable operator surface language for finance, payment, and risk teams.</div>
@@ -377,8 +419,8 @@ function overview_content(result::Dict)
 
     <footer>
       <span>treasury-liquidity-signal-lab · Julia 1.12</span>
-      <span><a href="https://github.com/mizcausevic-dev/">GitHub</a> · <a href="https://www.linkedin.com/in/mirzacausevic/">LinkedIn</a> · <a href="https://kineticgain.com/">Kinetic Gain</a></span>
-      <span><a href="/docs/">Docs</a> · <a href="/verification/">Verification</a></span>
+      <span><a href="https://portfolio.kineticgain.com/">Portfolio</a> · <a href="https://suite.kineticgain.com/">Suite</a> · <a href="https://github.com/mizcausevic-dev/treasury-liquidity-signal-lab">Repo</a></span>
+      <span><a href="/docs/">Docs</a> · <a href="/verification/">Verification</a> · <a href="https://www.linkedin.com/in/mirzacausevic/">LinkedIn</a> · <a href="https://kineticgain.com/">Kinetic Gain</a></span>
     </footer>
     """
 end
